@@ -24,8 +24,8 @@ No machine-specific input paths were found.
 
 The validation script checks notebook structure, compiles all transformed code cells,
 and imports declared dependencies. It does not execute training or claim to
-reproduce results without the original datasets. Saved code-cell outputs were cleared to avoid presenting results from the old
-environment as current. Rerun to generate results.
+reproduce results without the original datasets. The notebook and its saved outputs are unchanged. Rerun the arithmetic cells
+in the new environment before relying on the displayed results.
 
 
 Version sources: [PyPI](https://pypi.org/), [Python releases](https://www.python.org/downloads/), [checkout releases](https://github.com/actions/checkout/releases), and [setup-python releases](https://github.com/actions/setup-python/releases).
